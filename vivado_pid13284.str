@@ -1,0 +1,156 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 13284
+License: Customer
+
+Current time: 	Mon Jun 18 20:18:46 CEST 2018
+Time zone: 	Central European Time (Europe/Belgrade)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 62 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	smelvinsky
+User home directory: C:/Users/smelvinsky
+User working directory: C:/Users/smelvinsky/Desktop/distance_zybo2
+User country: 	PL
+User language: 	pl
+User locale: 	pl_PL
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/smelvinsky/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/smelvinsky/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/smelvinsky/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/smelvinsky/Desktop/distance_zybo2/vivado.log
+Vivado journal file location: 	C:/Users/smelvinsky/Desktop/distance_zybo2/vivado.jou
+Engine tmp dir: 	C:/Users/smelvinsky/Desktop/distance_zybo2/.Xil/Vivado-13284-DESKTOP-7FFRRAU
+
+GUI allocated memory:	210 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 508 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 50 MB (+49540kb) [00:00:19]
+// [Engine Memory]: 498 MB (+371128kb) [00:00:19]
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\smelvinsky\Desktop\distance_zybo2\distance_zybo2.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/smelvinsky/Desktop/distance_zybo2/distance_zybo2.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 523 MB. GUI used memory: 34 MB. Current time: 6/18/18 8:18:48 PM CEST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 541 MB (+18969kb) [00:00:33]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 572 MB (+4023kb) [00:00:35]
+// [GUI Memory]: 59 MB (+7148kb) [00:00:38]
+// Tcl Message: open_project C:/Users/smelvinsky/Desktop/distance_zybo2/distance_zybo2.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Pulpecik/distance_zybo2' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 599 MB. GUI used memory: 40 MB. Current time: 6/18/18 8:19:07 PM CEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:21 . Memory (MB): peak = 810.035 ; gain = 77.012 
+// Project name: distance_zybo2; location: C:/Users/smelvinsky/Desktop/distance_zybo2; part: xc7z010clg400-1
+// [Engine Memory]: 604 MB (+2856kb) [00:00:43]
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 622 MB. GUI used memory: 39 MB. Current time: 6/18/18 8:19:33 PM CEST
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bv (ch):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/smelvinsky/Desktop/distance_zybo2/distance_zybo2.srcs/sources_1/bd/design_zybo2/design_zybo2.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding cell -- xilinx.com:user:distance_zybo2_ip:1.0 - distance_zybo2_ip_0 Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 698 MB (+67231kb) [00:01:28]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Successfully read diagram <design_zybo2> from BD file <C:/Users/smelvinsky/Desktop/distance_zybo2/distance_zybo2.srcs/sources_1/bd/design_zybo2/design_zybo2.bd> 
+// HMemoryUtils.trashcanNow. Engine heap size: 708 MB. GUI used memory: 41 MB. Current time: 6/18/18 8:19:54 PM CEST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 905.461 ; gain = 73.945 
+// 'bA' command handler elapsed time: 20 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Open Block Design"); // bv (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+// [GUI Memory]: 66 MB (+4260kb) [00:01:44]
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (ch): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_No", "No"); // JButton (A, H)
+// 'm' command handler elapsed time: 9 seconds
+dismissDialog("Export Hardware"); // X (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+// [GUI Memory]: 72 MB (+2597kb) [00:01:57]
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (ch): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// 'o' command handler elapsed time: 3 seconds
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_HARDWARE_SYSTEM_OUT_OF_DATE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (ch)
+// Tcl Message: launch_sdk -workspace C:/Users/smelvinsky/Desktop/distance_zybo2/distance_zybo2.sdk -hwspec C:/Users/smelvinsky/Desktop/distance_zybo2/distance_zybo2.sdk/design_zybo2_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/smelvinsky/Desktop/distance_zybo2/distance_zybo2.sdk -hwspec C:/Users/smelvinsky/Desktop/distance_zybo2/distance_zybo2.sdk/design_zybo2_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 731 MB. GUI used memory: 43 MB. Current time: 6/18/18 8:20:33 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 76 MB (+697kb) [00:08:14]
