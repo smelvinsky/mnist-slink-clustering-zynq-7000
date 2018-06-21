@@ -8,15 +8,21 @@ LD_SRCS += \
 
 C_SRCS += \
 ../src/main.c \
-../src/platform.c 
+../src/mnist_clusters.c \
+../src/platform.c \
+../src/timer.c 
 
 OBJS += \
 ./src/main.o \
-./src/platform.o 
+./src/mnist_clusters.o \
+./src/platform.o \
+./src/timer.o 
 
 C_DEPS += \
 ./src/main.d \
-./src/platform.d 
+./src/mnist_clusters.d \
+./src/platform.d \
+./src/timer.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

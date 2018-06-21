@@ -1,0 +1,1 @@
+void init_cluster_1(void);
